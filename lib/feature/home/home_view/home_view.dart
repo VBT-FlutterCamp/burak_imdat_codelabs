@@ -13,9 +13,6 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(StringConstants.instance.appBarTitle),
-      ),
       body: const Center(child: RandomWords()),
     );
   }
